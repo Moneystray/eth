@@ -21,10 +21,10 @@ const collectionInfo = {
     }
 }
 const mintInfo = {
-    price: 0.0,         // Price per NFT.
+    price: 0.2,         // Price per NFT.
     totalSupply: 853,   // Total supply of NFTs.
     minUnits: 1,        // Min units to buy.
-    maxUnits: 1,        // Max units to buy.
+    maxUnits: 6,        // Max units to buy.
     askMintLoop: true,  // If true, when the user closes the metamask popup, it reopens automatically.
 }
 const nftsInfo = {
